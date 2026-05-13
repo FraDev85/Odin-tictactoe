@@ -65,7 +65,7 @@ function showMessage(text) {
 
 // --- Setup ---
 
-const player1 = createPlayer("Giocatore", "X");
+const player1 = createPlayer("Player", "X");
 const player2 = createPlayer("Computer", "O");
 let board = createBoard();
 let currentPlayer = player1;
